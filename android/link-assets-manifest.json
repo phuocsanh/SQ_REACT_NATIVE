@@ -1,0 +1,61 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/HelveticaNeue-Bold.ttf",
+      "sha1": "edcad669837fcf509767d2feb98afab4cd894eb5"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-BoldItalic.ttf",
+      "sha1": "4fb870e42cbee0c62e8b23db540384d45cc2b5b3"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-CondensedBold.ttf",
+      "sha1": "b03a33a801966e71f14702011fc4f10c8b292a7f"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-Italic.ttf",
+      "sha1": "991be097d9678bd4542af7350fed6a8dd3764169"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-Light.ttf",
+      "sha1": "5cad1cd8fda65415de329f34a244af88ca071e47"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-LightItalic.ttf",
+      "sha1": "7602679f688e4b67b94eff6783188843e50dcca4"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-Medium.ttf",
+      "sha1": "c5ee0865f44c991254eec0ab884e8b9ed8a57d44"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-Regular.ttf",
+      "sha1": "65b041ef751f0ca6d070984444aeec498635bae7"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-UltraLight.ttf",
+      "sha1": "ac049a6fd2897075cc4b8a28c3d17aeb5cd554d0"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-UltraLightItalic.ttf",
+      "sha1": "61f58da09626f1e25724fa46bd21826ee04f7de0"
+    },
+    {
+      "path": "src/assets/sound/default_sound.mp3",
+      "sha1": "e76a6d02dba87e6becc0a35343be66c37d5c48b8"
+    },
+    {
+      "path": "src/assets/sound/new_booking.mp3",
+      "sha1": "291df8f7f5d563b6edc9f317358c360b77ed1ef4"
+    },
+    {
+      "path": "src/assets/sound/new_booking_low.mp3",
+      "sha1": "0ba723ce887c7c617a3521e1d22e7c24efb73e62"
+    },
+    {
+      "path": "src/assets/sound/open_app_now.mp3",
+      "sha1": "8d519794e1c188fe3de75ba96e158ad3dc575b85"
+    }
+  ]
+}

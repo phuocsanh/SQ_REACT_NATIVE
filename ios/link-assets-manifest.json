@@ -1,0 +1,137 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/HelveticaNeue-Bold.ttf",
+      "sha1": "edcad669837fcf509767d2feb98afab4cd894eb5"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-BoldItalic.ttf",
+      "sha1": "4fb870e42cbee0c62e8b23db540384d45cc2b5b3"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-CondensedBold.ttf",
+      "sha1": "b03a33a801966e71f14702011fc4f10c8b292a7f"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-Italic.ttf",
+      "sha1": "991be097d9678bd4542af7350fed6a8dd3764169"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-Light.ttf",
+      "sha1": "5cad1cd8fda65415de329f34a244af88ca071e47"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-LightItalic.ttf",
+      "sha1": "7602679f688e4b67b94eff6783188843e50dcca4"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-Medium.ttf",
+      "sha1": "c5ee0865f44c991254eec0ab884e8b9ed8a57d44"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-Regular.ttf",
+      "sha1": "65b041ef751f0ca6d070984444aeec498635bae7"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-UltraLight.ttf",
+      "sha1": "ac049a6fd2897075cc4b8a28c3d17aeb5cd554d0"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-UltraLightItalic.ttf",
+      "sha1": "61f58da09626f1e25724fa46bd21826ee04f7de0"
+    },
+    {
+      "path": "src/assets/sound/default_sound.mp3",
+      "sha1": "e76a6d02dba87e6becc0a35343be66c37d5c48b8"
+    },
+    {
+      "path": "src/assets/sound/new_booking.mp3",
+      "sha1": "291df8f7f5d563b6edc9f317358c360b77ed1ef4"
+    },
+    {
+      "path": "src/assets/sound/new_booking_low.mp3",
+      "sha1": "0ba723ce887c7c617a3521e1d22e7c24efb73e62"
+    },
+    {
+      "path": "src/assets/sound/open_app_now.mp3",
+      "sha1": "8d519794e1c188fe3de75ba96e158ad3dc575b85"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+      "sha1": "4e77868439280fb434d4697c7b911271406c81f3"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+      "sha1": "12b5670eb178138f77285d5f2c246d3cc5fa67d6"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+      "sha1": "91d377ea3cf47490b256c2ed081704a7dabdae0c"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+      "sha1": "e6604258b1ced5efd51360875d782fca65381d47"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+      "sha1": "13b1eab65a983c7a73bc7997c479d66943f7c6cb"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+      "sha1": "3fa2d67cef22da5c3f3eb5730c6afbd6fecf0372"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+      "sha1": "7d849a3981a716e2ba4a84634bc57d0b8054a6a3"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+      "sha1": "c1b9fae262f42868c075ac865a8ab34920e20a2c"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/FontAwesome6_Brands.ttf",
+      "sha1": "d8b3568e9d8a1d3c01c85520eb9ca0b49b72815d"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/FontAwesome6_Regular.ttf",
+      "sha1": "2d7890e12afb77490112ec57fe47ca0688aebda2"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/FontAwesome6_Solid.ttf",
+      "sha1": "e9ace557c3aa403307f1e7a2cef1c035d522b94b"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+      "sha1": "c090a3ec96a3f1bb9b615c2f3f204ce0dcdcdbc3"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+      "sha1": "4b2bce6c792493a4a5716b6fec2dbefe89492c3f"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+      "sha1": "86e07c3d974eb09099e6e5a9b3b8310303cf0feb"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+      "sha1": "4c2a838b00dbb5e8bb1b368fce0de534e8eb241c"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+      "sha1": "7e02c3f005532ff4d24148567c84089756a7848a"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+      "sha1": "56acefc0731f35ee23b195b1c8cb5fa94a0db97b"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+      "sha1": "9ffb81a5a11112e292f2cc323e98486bad597599"
+    },
+    {
+      "path": "node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+      "sha1": "6a48a962b06cc3acbdfd61df0d9a34744eea5e8d"
+    }
+  ]
+}

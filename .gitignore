@@ -31,14 +31,14 @@ local.properties
 *.iml
 *.hprof
 .cxx/
-*.keystore
-!debug.keystore
 
 # node.js
 #
 node_modules/
 npm-debug.log
 yarn-error.log
+yarn.lock
+Podfile.lock
 
 # fastlane
 #
@@ -64,3 +64,13 @@ yarn-error.log
 
 # testing
 /coverage
+
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+android/.settings/
