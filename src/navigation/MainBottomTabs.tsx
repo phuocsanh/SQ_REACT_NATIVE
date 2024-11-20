@@ -4,17 +4,18 @@ import {
   createBottomTabNavigator,
 } from '@react-navigation/bottom-tabs';
 
-import HomeScreen from 'screens/mainBottomTab/HomeScreen';
 import ManagementOrderScreen from 'screens/mainBottomTab/ManagementOrderScreen';
 import {MainBottomTabParamList} from './type';
-import TableRoomScreen from 'screens/mainBottomTab/TableRoomScreen';
-import ProfileScreen from 'screens/mainBottomTab/ProfileScreen';
-import PaymentScreen from 'screens/mainBottomTab/PaymentScreen';
+
 import {BottomFabBar} from 'rn-wave-bottom-bar';
 import {COLORS} from 'theme';
 import {ICONS} from 'assets';
 import {Image, ImageSourcePropType} from 'react-native';
 import {fontScale} from '../theme/helper';
+import HomeScreen from 'screens/mainBottomTab/HomeScreen';
+import TableRoomScreen from 'screens/mainBottomTab/TableRoomScreen';
+import PaymentScreen from 'screens/mainBottomTab/PaymentScreen';
+import ProfileScreen from 'screens/mainBottomTab/ProfileScreen';
 const Tab = createBottomTabNavigator<MainBottomTabParamList>();
 
 const tabBarIcon =

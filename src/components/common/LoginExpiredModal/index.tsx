@@ -11,7 +11,7 @@ export const LoginExpiredModal = () => {
   const dispatch = useAppDispatch();
   const handleSubmit = () => {
     dispatch(expiredToken(false));
-    navigationRoot.navigate('CheckPhoneLoginScreen');
+    // navigationRoot.navigate('CheckPhoneLoginScreen');
   };
   return (
     <Modal isVisible={isExpiredToken} position="center">
@@ -31,10 +31,18 @@ export const LoginExpiredModal = () => {
           color={COLORS.primary}>
           Phiên đăng nhập đã hết hạn
         </Text>
-        <Text fontSize={16} textAlign="center" marginBottom={15} color={COLORS.backgroundIcon}>
+        <Text
+          fontSize={16}
+          textAlign="center"
+          marginBottom={15}
+          color={COLORS.antiFlashWhite}>
           Vui lòng đăng nhập lại!
         </Text>
-        <Button style={{width: '90%'}} title="Xác nhận" onPress={handleSubmit} />
+        <Button
+          style={{width: '90%'}}
+          title="Xác nhận"
+          onPress={handleSubmit}
+        />
       </Block>
     </Modal>
   );

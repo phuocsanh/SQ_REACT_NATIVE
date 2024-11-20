@@ -43,7 +43,7 @@ export const ModalInternetOffline = () => {
       zIndex={20}>
       <Image
         marginTop={top + 30}
-        source={IMAGES.img_no_internet}
+        source={IMAGES.img_bg_promotion}
         width={387}
         height={480}
       />
@@ -55,7 +55,7 @@ export const ModalInternetOffline = () => {
           marginTop={10}
           font={'regular'}
           fontSize={14}
-          color={COLORS.backgroundIcon}>
+          color={COLORS.antiFlashWhite}>
           {'Không thể kết nối đến máy chủ hoặc cơ sở dữ liệu.'}
         </Text>
       </Block>

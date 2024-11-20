@@ -48,6 +48,8 @@
 		32B0D6BB94184746A30250FA /* new_booking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFDA384F9AC24878A5C4F20D /* new_booking.mp3 */; };
 		F398FD89E1674A2993E5CED7 /* new_booking_low.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E814C7A63C9F45B79BEC993A /* new_booking_low.mp3 */; };
 		F9A33794589F4BC5A5E0A581 /* open_app_now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52CFCB5E005B4A2DB504B191 /* open_app_now.mp3 */; };
+		9F1309D7097E4E49A186EE29 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57878042FF8D4768B3FDF56D /* BootSplash.storyboard */; };
+		A8F83BF2C001493BA2C3219A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DD7974C7E24FD2878DDE3F /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +114,8 @@
 		BFDA384F9AC24878A5C4F20D /* new_booking.mp3 */ = {isa = PBXFileReference; name = "new_booking.mp3"; path = "../src/assets/sound/new_booking.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		E814C7A63C9F45B79BEC993A /* new_booking_low.mp3 */ = {isa = PBXFileReference; name = "new_booking_low.mp3"; path = "../src/assets/sound/new_booking_low.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		52CFCB5E005B4A2DB504B191 /* open_app_now.mp3 */ = {isa = PBXFileReference; name = "open_app_now.mp3"; path = "../src/assets/sound/open_app_now.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		57878042FF8D4768B3FDF56D /* BootSplash.storyboard */ = {isa = PBXFileReference; name = "BootSplash.storyboard"; path = "SQ/BootSplash.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		19DD7974C7E24FD2878DDE3F /* Colors.xcassets */ = {isa = PBXFileReference; name = "Colors.xcassets"; path = "SQ/Colors.xcassets"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = folder.assetcatalog; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				57878042FF8D4768B3FDF56D /* BootSplash.storyboard */,
+				19DD7974C7E24FD2878DDE3F /* Colors.xcassets */,
 			);
 			name = SQ;
 			sourceTree = "<group>";
@@ -389,6 +395,8 @@
 				32B0D6BB94184746A30250FA /* new_booking.mp3 in Resources */,
 				F398FD89E1674A2993E5CED7 /* new_booking_low.mp3 in Resources */,
 				F9A33794589F4BC5A5E0A581 /* open_app_now.mp3 in Resources */,
+				9F1309D7097E4E49A186EE29 /* BootSplash.storyboard in Resources */,
+				A8F83BF2C001493BA2C3219A /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

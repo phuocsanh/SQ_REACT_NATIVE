@@ -43,7 +43,7 @@ export const NetWork = () => {
         paddingHorizontal={20}
         backgroundColor={COLORS.white}
         width={mhs(width - 24)}>
-        <Text font="semiBold" textAlign="center" fontSize={20}>
+        <Text font="bold" textAlign="center" fontSize={20}>
           Kiểm tra kết nối mạng!
         </Text>
         <Text marginTop={10} textAlign="center" fontSize={16}>

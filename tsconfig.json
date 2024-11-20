@@ -1,3 +1,7 @@
 {
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./src"
+  },
   "extends": "@tsconfig/react-native/tsconfig.json"
 }
