@@ -22,7 +22,11 @@ export const ViewShadowImage = ({
   children,
 }: ViewShadowImageProps) => {
   return (
-    <Block radius={10} shadow="Sky" backgroundColor={COLORS.white} {...containerProps}>
+    <Block
+      radius={10}
+      shadow="Sky"
+      backgroundColor={COLORS.white}
+      {...containerProps}>
       <>{children}</>
       {showImg && (
         <Block
@@ -30,7 +34,13 @@ export const ViewShadowImage = ({
           marginTop={marginTopImg}
           marginBottom={marginBottomImg}
           justifyContent={'center'}>
-          <Image source={IMAGES.img_driver_recruitment} width={358} height={301} radius={10} />
+          <Image
+            resizeMode="contain"
+            source={IMAGES.img_cart}
+            width={358}
+            height={301}
+            radius={10}
+          />
         </Block>
       )}
     </Block>

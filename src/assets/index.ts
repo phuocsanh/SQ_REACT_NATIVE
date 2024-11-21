@@ -79,6 +79,7 @@ export const ICONS = {
 };
 
 export const IMAGES = {
+  img_cart: require('./images/cart.png'),
   img_bg: require('./images/img_bg.png'),
   img_bg_promotion: require('./images/img_bg_promotion.png'),
   img_success_payment: require('./images/img_success_payment.png'),

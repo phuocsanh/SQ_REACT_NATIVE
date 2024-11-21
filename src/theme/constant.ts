@@ -8,10 +8,10 @@ export const {width, height} = Dimensions.get('screen');
 export const [shortDimension, longDimension] =
   width < height ? [width, height] : [height, width];
 
-export const HEADER_HEIGHT = 50;
 export const IMG_HEADER_HEIGHT = 300;
+export const HEADER_HEIGHT = 98;
 
-export const HEADER_TOP_OFFSET = 15;
+export const HEADER_TOP_OFFSET = 53;
 
 const {width: SCREEN_WIDTH, height: SCREEN_HEIGHT} = Dimensions.get('window');
 

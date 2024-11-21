@@ -1,5 +1,5 @@
 export const COLORS = {
-  primary: '#1464DF',
+  primary: '#32DAF3',
   bubbles: '#E8F6FF',
   gray: '#808080',
   white: '#FFFFFF',
@@ -31,11 +31,11 @@ export const COLORS_GRADIENT = {
   linearBlueSky: ['#009CE1', '#00D4F0', '#FFFFFF'],
   // header: ['#009DE1', '#12B3E8', '#32DAF3', '#FFFFFF'],
   header: [
-    '#009DE1',
-    '#009DE1',
-    '#009DE1',
     '#12B3E8',
+    '#00D4F0',
     '#32DAF3',
+    '#1CE2FF',
+    '#26FFFF',
     'rgba(158, 237, 249, 0.47)',
     'rgba(255, 255, 255, 0)',
   ],

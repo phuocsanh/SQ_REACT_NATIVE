@@ -24,30 +24,17 @@ export type ProfileScreenProps = MainBottomTabScreenProps<'Profile'>;
 
 export type RootStackParamList = {
   MainBottomTab: NavigatorScreenParams<MainBottomTabParamList>;
-  CustomerInfo: undefined;
+  LoginScreen: undefined;
+  RegisterScreen: undefined;
   SearchProduct: undefined;
   PromotionScreen: undefined;
-  DetailFoodScreen: undefined;
-  SplitOrderScreen: undefined;
-  InvoiceDetailAtTableScreen: undefined;
-  ChooseTableScreen: undefined;
-  AddNewCustomerScreen: undefined;
-  InfoCustomerSavedScreen: undefined;
-  DetailPaymentScreen: undefined;
   PaymentScreen: undefined;
-  AddMenuInTableScreen: undefined;
   SettingProfileScreen: undefined;
-  LanguageScreen: undefined;
-  PrintScreen: undefined;
-  NotificationScreen: undefined;
-  ShowTableScreen: undefined;
-  SettingBuyScreen: undefined;
-  SettingNotificationScreen: undefined;
   ChangePasswordScreen: undefined;
-  InvoiceDetailsScreen: undefined;
 };
 
 export type RootStackScreenProps<T extends keyof RootStackParamList> =
   NativeStackScreenProps<RootStackParamList, T>;
 
 export type MainBottomTabProps = RootStackScreenProps<'MainBottomTab'>;
+export type LoginScreenProps = RootStackScreenProps<'LoginScreen'>;

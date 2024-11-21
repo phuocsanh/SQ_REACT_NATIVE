@@ -22,7 +22,7 @@ export type BackgroundRegisterProps = PropsWithChildren<
 >;
 
 export const BackgroundRegister = ({
-  canGoBack = true,
+  canGoBack = false,
   onGoBack = navigationRoot.goBack,
   children,
   renderRight,
@@ -31,7 +31,10 @@ export const BackgroundRegister = ({
 
   return (
     <Block flex backgroundColor={COLORS.white}>
-      <KeyboardAvoidingView style={{flex: 1}} behavior={'padding'} enabled={Platform.OS === 'ios'}>
+      <KeyboardAvoidingView
+        style={{flex: 1}}
+        behavior={'padding'}
+        enabled={Platform.OS === 'ios'}>
         <StatusBar />
         <LinearGradient
           style={{
@@ -64,13 +67,22 @@ export const BackgroundRegister = ({
                 onPress={onGoBack}
                 justifyContent={'center'}
                 alignItems={'center'}>
-                <Icon type="FontAwesome6" name="angle-left" size={25} color={COLORS.white} />
+                <Icon
+                  type="FontAwesome6"
+                  name="angle-left"
+                  size={25}
+                  color={COLORS.white}
+                />
               </Pressable>
             )}
           </Block>
-          <Block marginTop={-35}>
-            <Text textAlign={'center'} fontSize={30} font={'bold'} color={COLORS.white}>
-              {'SKY'}
+          <Block marginTop={40}>
+            <Text
+              textAlign={'center'}
+              fontSize={40}
+              font={'bold'}
+              color={COLORS.white}>
+              {'SQ'}
             </Text>
             {renderRight && renderRight()}
           </Block>
@@ -81,7 +93,7 @@ export const BackgroundRegister = ({
             fontSize={16}
             font={'regular'}
             color={COLORS.white}>
-            {'Bắt đầu trải nghiệm dịch vụ của Sky'}
+            {'Bắt đầu trải nghiệm dịch vụ của SQ'}
           </Text>
           <ScrollView
             contentContainerStyle={{
@@ -90,7 +102,9 @@ export const BackgroundRegister = ({
               paddingBottom: 50,
             }}
             showsVerticalScrollIndicator={false}>
-            <TouchableWithoutFeedback style={{flex: 1}} onPress={Keyboard.dismiss}>
+            <TouchableWithoutFeedback
+              style={{flex: 1}}
+              onPress={Keyboard.dismiss}>
               <>{children}</>
             </TouchableWithoutFeedback>
           </ScrollView>
